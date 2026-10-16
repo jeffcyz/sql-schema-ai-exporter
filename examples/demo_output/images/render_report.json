@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "database": "SAMPLE_DB",
+  "tables": 3,
+  "views": 1,
+  "objects": 4,
+  "source_fields": 22,
+  "layout_fields_covered": 22,
+  "images": 1,
+  "missing_fields": 0,
+  "render_config": {
+    "width": 1400,
+    "height": 1700,
+    "columns": 2,
+    "font_size": 20,
+    "theme": "light"
+  },
+  "note": "Logical layout coverage only; visual-model transcription accuracy is not guaranteed."
+}

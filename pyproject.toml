@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-schema-ai-exporter"
+version = "0.1.0"
+description = "Read-only SQL Server table/view column metadata export with AI-dense PNG pages"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Project contributors"}]
+dependencies = ["Pillow>=10,<13"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+sql = ["pyodbc>=5.1,<7"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+schema-ai-export = "sql_schema_ai_exporter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

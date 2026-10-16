@@ -1,0 +1,123 @@
+{
+  "format_version": "1.0",
+  "database": "SAMPLE_DB",
+  "exported_at_utc": "2026-10-16T04:48:46+00:00",
+  "objects": [
+    {
+      "schema": "dbo",
+      "type": "T",
+      "name": "Bond",
+      "columns": [
+        {
+          "ordinal": 1,
+          "name": "BondID"
+        },
+        {
+          "ordinal": 2,
+          "name": "DealID"
+        },
+        {
+          "ordinal": 3,
+          "name": "BondClass"
+        },
+        {
+          "ordinal": 4,
+          "name": "CUSIP"
+        },
+        {
+          "ordinal": 5,
+          "name": "CouponRate"
+        },
+        {
+          "ordinal": 6,
+          "name": "MaturityDate"
+        }
+      ]
+    },
+    {
+      "schema": "dbo",
+      "type": "T",
+      "name": "Deal",
+      "columns": [
+        {
+          "ordinal": 1,
+          "name": "DealID"
+        },
+        {
+          "ordinal": 2,
+          "name": "DealName"
+        },
+        {
+          "ordinal": 3,
+          "name": "AssetTypeCode"
+        },
+        {
+          "ordinal": 4,
+          "name": "ReportingDate"
+        },
+        {
+          "ordinal": 5,
+          "name": "OriginalBalance"
+        },
+        {
+          "ordinal": 6,
+          "name": "CreatedDate"
+        }
+      ]
+    },
+    {
+      "schema": "dbo",
+      "type": "V",
+      "name": "vw_DealSummary",
+      "columns": [
+        {
+          "ordinal": 1,
+          "name": "DealID"
+        },
+        {
+          "ordinal": 2,
+          "name": "DealName"
+        },
+        {
+          "ordinal": 3,
+          "name": "BondCount"
+        },
+        {
+          "ordinal": 4,
+          "name": "TotalBalance"
+        }
+      ]
+    },
+    {
+      "schema": "report",
+      "type": "T",
+      "name": "Asset",
+      "columns": [
+        {
+          "ordinal": 1,
+          "name": "AssetID"
+        },
+        {
+          "ordinal": 2,
+          "name": "DealID"
+        },
+        {
+          "ordinal": 3,
+          "name": "PrincipalBalance"
+        },
+        {
+          "ordinal": 4,
+          "name": "PaymentStatus"
+        },
+        {
+          "ordinal": 5,
+          "name": "CurrentInterestRate"
+        },
+        {
+          "ordinal": 6,
+          "name": "MaturityDate"
+        }
+      ]
+    }
+  ]
+}

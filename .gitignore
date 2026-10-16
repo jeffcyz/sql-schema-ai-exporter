@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.coverage
+htmlcov/
+output/
+exports/
+private/
+*.env
+.env
+.env.*
+!.env.example
+# Do not commit internal customer/database metadata without approval
+schema_snapshot.json

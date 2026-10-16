@@ -1,0 +1,5 @@
+﻿image,type,schema,object_name,field_count_in_image,field_ordinals
+schema_001.png,T,dbo,Bond,6,1;2;3;4;5;6
+schema_001.png,T,dbo,Deal,6,1;2;3;4;5;6
+schema_001.png,V,dbo,vw_DealSummary,4,1;2;3;4
+schema_001.png,T,report,Asset,6,1;2;3;4;5;6

@@ -1,0 +1,4 @@
+{"database": "SAMPLE_DB", "type": "T", "schema": "dbo", "object_name": "Bond", "column_count": 6}
+{"database": "SAMPLE_DB", "type": "T", "schema": "dbo", "object_name": "Deal", "column_count": 6}
+{"database": "SAMPLE_DB", "type": "V", "schema": "dbo", "object_name": "vw_DealSummary", "column_count": 4}
+{"database": "SAMPLE_DB", "type": "T", "schema": "report", "object_name": "Asset", "column_count": 6}
